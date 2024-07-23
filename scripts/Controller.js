@@ -71,7 +71,7 @@ const handleSetItemList = ({ title, value, id, category }) => {
   li.appendChild(expenseAmount);
 
   const imgRemove = document.createElement("img");
-  imgRemove.src = "../img/remove.svg";
+  imgRemove.src = "./img/remove.svg";
   imgRemove.alt = "remover item";
   imgRemove.className = "remove-icon";
 
